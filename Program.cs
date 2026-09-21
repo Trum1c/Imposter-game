@@ -18,18 +18,24 @@ Console.WriteLine(spilleord);
 
 int i = 0;
 
-while (i<people)
+while (i<people+1)
 {
     ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-    if (i == imposter-1)
+    if (i == imposter)
     {
         Console.Clear();
         Console.WriteLine("Du er imposteren");
         i++;
     }
+    
     else if (keyInfo.Key == ConsoleKey.X)
     {
         i++;
+        Console.Clear();
+        Console.WriteLine("Spiller: "+ i + "    Tryk på S for at se din status");
+    }
+    else if (keyInfo.Key == ConsoleKey.S)
+    {
         Console.Clear();
         Console.WriteLine("Spiller: "+ i + "| "+spilleord);
     }

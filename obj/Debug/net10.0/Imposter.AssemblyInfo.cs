@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Imposter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a1e3a6b85e00b279c8b4f52a5e425f2a3ffa6c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8662e1109047aa5f0e10974d9aa134a518abb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Imposter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Imposter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
