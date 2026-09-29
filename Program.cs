@@ -1,4 +1,6 @@
-﻿//Input of how many people there is
+﻿using System;
+using System.Timers;
+//Input of how many people there is
 int people = 0;
 bool gyldig = false;
 
@@ -67,4 +69,14 @@ while (i<=people)
         }
     }
 }
-Console.WriteLine(imposter);
+Console.Clear();
+Console.WriteLine("Hvem er impostor?: ");
+int svar = Convert.ToInt32(Console.ReadLine());
+if (svar == imposter)
+{
+    Console.WriteLine("Det er korrekt, spiller: " + imposter + ", er imposter");
+}
+else
+{
+    Console.WriteLine("Det er forkert, spiller: " + imposter + ", er imposter");
+}
